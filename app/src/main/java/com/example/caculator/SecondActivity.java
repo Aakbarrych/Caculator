@@ -27,17 +27,7 @@ public class SecondActivity extends AppCompatActivity {
     public void onLogicCLick(View view){
         switch (view.getId()){
             case R.id.destroy_btn:
-                onDestroy();
+                finish();
         }
-    }
-
-    @Override
-    protected void onDestroy() {
-        Button destroy = findViewById(R.id.destroy_btn);
-        destroy.setOnClickListener(view -> {
-            Log.d("lifecycle", "onDestroy: ");
-            super.onDestroy();
-       });
-
     }
 }
