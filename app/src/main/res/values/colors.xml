@@ -7,6 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#CC1919</color>
 
     <color name="btn_background_color">#616161</color>
     <color name="btn_text_color">#A5A5A5</color>
@@ -15,4 +16,5 @@
     <color name="btn_second_text_color">#339DFF</color>
     <color name="btn_third_background_color">#303136</color>
     <color name="btn_third_text_color">#29A8FF</color>
+    <color name="result_btn_color">#FF4B606E</color>
 </resources>
